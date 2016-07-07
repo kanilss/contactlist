@@ -40,8 +40,8 @@ namespace MasterDemo
                     html += $"<td>{contact.ID}</td>";
                     html += $"<td>{contact.FirstName}</td>";
                     html += $"<td>{contact.LastName}<td>";
-                    html += $"<td><a href=\"AddContact.aspx?action=edit&cid={contact.ID}\">[Edit]</a></td>";
-                    html += $"<td><a href=\"Index.aspx?action=delete&cid={contact.ID}\">[Delete]</a></td>";
+                    html += $"<td><a href=\"AddContact.aspx?action=edit&cid={contact.ID}\"><span class=\"glyphicon glyphicon-pencil\"></span></a></td>";
+                    html += $"<td><a href =\"Index.aspx?action=delete&cid={contact.ID}\"><span class=\"glyphicon glyphicon-trash\"></span></a></td>";       
                     html += "</tr>";
                 }
                 myLiteral.Text = html;

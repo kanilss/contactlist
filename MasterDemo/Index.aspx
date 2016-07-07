@@ -4,11 +4,11 @@
     <table class="table table-striped" style="width:400px">
         <thead>
             <tr>
-                <th style="width:30px">ID</th>
-                <th style="width:125px">Firstname</th>
-                <th style="width:125px">Lastname</th>
-                <th style="width:60px">&nbsp</th>
-                <th style="width:60px">&nbsp</th>
+                <th style="width:20px">ID</th>
+                <th style="width:150px">Firstname</th>
+                <th style="width:150px">Lastname</th>
+                <th style="width:40px">&nbsp</th>
+                <th style="width:40px">&nbsp</th>
             </tr>
         </thead>
         <tbody>

@@ -24,16 +24,13 @@ namespace MasterDemo
 
                 if (action != null)
                 {
-                    if (cid != "" && action.Equals("edit"))
+                    if (this.IsValid)
                     {
-                        if (this.IsValid)
+                        if (cid != "" && action.Equals("edit"))
                         {
                             SQL.UpdateContact(cid, firstname.Text, lastname.Text);
                         }
-                    }
-                    else if (action.Equals("add"))
-                    {
-                        if (this.IsValid)
+                        else if (action.Equals("add"))
                         {
                             SQL.AddNewContact(firstname.Text, lastname.Text);
                         }

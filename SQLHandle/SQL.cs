@@ -10,7 +10,7 @@ namespace SQLHandler
 {
     public class SQL
     {
-        static string conStr = "Data Source=ACADEMY-6162WY9; Initial Catalog=Contacts; Integrated Security=SSPI";
+        static string conStr = "Data Source=contactlist.database.windows.net;Initial Catalog=contactlist;Integrated Security=False;User ID=karin;Password=********;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         static public void AddNewContact(string firstname, string lastname)
         {
 
